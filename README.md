@@ -22,6 +22,14 @@ Multiple nethods are being used to "extend" the range or to have multiple "P1 ou
 * Keep in mind that this is not an open collector solution anymore.
 
 * It is claimed that this solution does extend the range 10 times, but in reality it only makes it possible to add more "drive strength" to the signal, resulting in a better signal for the receiver also after adding extra meters to the cabling.
+
+## Using Ethernet:
+* Make the P1 information available on a Netwerk, so others can receive the P1 information if needed.
+* Can be done via WIFI or Ethenet Cable.
+* Longer range than a "direct" connection.
+* The other side needs to have a connection to the Netwerk: Home Assistant, Domoticz, Home battery solution, ...
+* Gives uncertainty in the solution: Network troubles, Complexity, Added "translation" devices (Sender and Receiver), Power, ...
+
 ## Using differential signals
 ![Differential_signal_transmission](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Differential_signal_transmission.svg/300px-Differential_signal_transmission.svg.png)
 * [Differential signalling](https://en.wikipedia.org/wiki/Differential_signalling)
