@@ -1,5 +1,5 @@
 # P1-slimme-meter-extender
-Extending the range for a P1 slimmer meter connection and even making it possible to connect multiple receiver (having their own data enable)/
+Extending the range for a P1 slimmer meter connection and even making it possible to connect multiple receivers (having their own data enable).
 ***
 <img src="Images/P1slimmemeterschematic.png" width="300">
 
