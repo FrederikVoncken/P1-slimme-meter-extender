@@ -18,7 +18,6 @@ Multiple nethods are being used to "extend" the range or to have multiple "P1 ou
 <img src="Images/6n137.png" width="200">
 
 * With a driver and an open collector or open drain (datasheet and image does not show this), you actively drive the output harder down and you can use a lower load resistor.
-
 * It is claimed that this solution does extend the range 10 times, but in reality it only adds more "drive strength" to the signal, resulting in a better signal for the receiver also after adding extra meters to the cabling.
 
 ## Using Ethernet:
