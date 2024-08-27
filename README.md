@@ -14,14 +14,12 @@ Multiple nethods are being used to "extend" the range or to have multiple "P1 ou
 * Making the rising edge "faster" and in so compensating the higher load. 
 * It can work for your situation, but you never now how good it is.
 
-## Using a driver:
+## Using a driver with an open collector or open drain:
 <img src="Images/6n137.png" width="200">
 
-* With a driver, you actively drive the output High and Low.
-* This means that you can driver a higher load or have  "faster" rising and falling edges
-* Keep in mind that this is not an open collector solution anymore.
+* With a driver and an open collector or open drain (datasheet and image does not show this), you actively drive the output harder down and you can use a lower load resistor.
 
-* It is claimed that this solution does extend the range 10 times, but in reality it only makes it possible to add more "drive strength" to the signal, resulting in a better signal for the receiver also after adding extra meters to the cabling.
+* It is claimed that this solution does extend the range 10 times, but in reality it only adds more "drive strength" to the signal, resulting in a better signal for the receiver also after adding extra meters to the cabling.
 
 ## Using Ethernet:
 * Make the P1 information available on a Netwerk, so others can receive the P1 information if needed.
